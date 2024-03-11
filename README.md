@@ -90,7 +90,7 @@ hlt
  
  ![add 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/7c9bb71a-2e39-46e2-b390-82e7975cfc3e)
 
-## ubtraction   of 8 bit numbers  ALP 
+## Subtraction   of 8 bit numbers  ALP 
 
 ```
 MOV al,34h
