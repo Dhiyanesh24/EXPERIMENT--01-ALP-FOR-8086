@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : JAYAVARTHAN P
+Name : Dhiyaneshwar P
 
-Roll no : 212222100015
+Roll no : 212222110009
 
 Date of experiment : 04-03-2024
 
