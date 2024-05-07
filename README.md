@@ -74,8 +74,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
-### Name : Dhiyaneshwar P
-### Reg.no : 212222110009
+##### Name : Dhiyaneshwar P
+##### Reg.no : 212222110009
 
 ## Addition  of 8 bit ALP 
 ```
