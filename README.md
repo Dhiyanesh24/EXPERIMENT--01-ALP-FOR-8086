@@ -1,7 +1,5 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name : Dhiyaneshwar P
-Roll no : 212222110009
-Date of experiment :
+
 
 
 
@@ -76,6 +74,8 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
+### Name : Dhiyaneshwar P
+### Reg.no : 212222110009
 
 ## Addition  of 8 bit ALP 
 ```
