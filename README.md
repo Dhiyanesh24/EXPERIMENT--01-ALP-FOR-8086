@@ -1,9 +1,11 @@
 # EXPERIMENT--01-ALP-FOR-8086
 Name : Dhiyaneshwar P
-
 Roll no : 212222110009
+Date of experiment :
 
-Date of experiment : 04-03-2024
+
+
+
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -13,19 +15,19 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
-4.	Compile the program and check for the errors 
+4.	 Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
 
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
-
+8.	 
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
@@ -73,69 +75,130 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-# Programs for arithmetic  operations
+## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
 ```
-MOV al,34h
+MOV AL,78H;
+MOV BL,69H;
+ADD AL,BL
+HLT
 
-MOV bl,64h
-
-ADD al,bl    
-
-hlt
+ret                     
 ```
 
-### Output  
- 
- ![add 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/7c9bb71a-2e39-46e2-b390-82e7975cfc3e)
+
+## Output  
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/1cc2a6e8-f1de-4c1f-9c7a-68e5e61d33e7)
+
+
+
 
 ## Subtraction   of 8 bit numbers  ALP 
-
 ```
-MOV al,34h
+MOV AL,68H;
+MOV BL,33H;
+SUB AL,BL
+HLT
 
-MOV bl,64h
-
-SUB al,bl    
-
-hlt
+ret                     
 ```
-### Output  
+## Output  
 
-![sub 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/97174066-7949-434e-b540-6ee69b0fc74d)
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/eda8a410-84d2-40d3-8d22-90e33e92ebd7)
+
+
+
 
 ## Multiplication alp 
 ```
-MOV al,34h
+MOV AL,75H;
+MOV BL,12H;
+MUL BL
+HLT
 
-MOV bl,64h
+ret                     
 
-MUL bl    
-
-hlt
 ```
+ ## Output  
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/1d5e2901-8ee7-48ea-a537-4053b26040b1)
 
-### Output  
 
-![mul 8 bit](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/410b0dc5-4b96-4b6c-8e7b-e2883dcd6317)
+
 
 
 ## Division alp 
 ```
-MOV al,34h
+MOV AL,65H;
+MOV BL,15H;
+DIV BL
+HLT
 
-MOV bl,64h
+ret                     
 
-DIV bl    
-
-hlt
 ```
-### Output  
 
-![div 8 bit ](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/0fd6b62f-3162-48a9-8392-7720537ef908)
+## Output  
 
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/f29fba07-9ff6-4631-ab9d-3177efd10473)
+
+
+## Programs for logical operations
+## AND alp
+```
+MOV AL,66H;
+MOV BL,77H;
+AND AL,BL
+HLT
+
+ret
+```
+## Output 
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/08c0dcc1-a7a6-458a-9e65-c4464bc5e4fd)
+
+## OR alp
+```
+MOV AL,99H;
+MOV BL,66H;
+OR AL,BL
+HLT
+
+ret 
+```
+## Output
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/b0e1bd14-d7aa-427c-9886-fc76e90b92ad)
+
+## XOR alp
+```
+MOV AL,85H;
+MOV BL,45H;
+XOR AL,BL
+HLT
+
+ret                                           
+
+```
+## Output
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/fe9093c2-c3dc-480a-86d3-4d00b1304cc7)
+
+## NOT alp
+```
+MOV AL,38H
+NOT AL
+HLT
+
+ret
+```
+## Output
+![image](https://github.com/balaji-21005757/EXPERIMENT--01-ALP-FOR-8086/assets/94372294/6c81460b-6755-4928-b5a0-0afacea57c16)
 
 ## Result :
- 
-Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
+ Hence ALP on fundamental arithmetic and logical operations is verified and executed.
+
+
+
+
+
+
+
+
